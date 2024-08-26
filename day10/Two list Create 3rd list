@@ -1,0 +1,4 @@
+list1=[62,51,66,57]
+list2=[113,179,174,123]
+list3=[value for pair in zip(list1, list2) for value in pair]
+print(list3)
